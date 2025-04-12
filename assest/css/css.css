@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(135deg, rgba(255, 85, 85, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    font-family: "Arial", sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+.form {
+    position: relative;
+    z-index: 1;
+    background: #fff;
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 40px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 0;
+    background: #f7f7f7;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+.form input:focus {
+    border: 1px solid #ff4d4d;
+    background: #fff;
+}
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    background: #ff4d4d;
+    color: #fff;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+.form button:hover {
+    background: #ff1a1a;
+}
+.form .message {
+    margin: 15px 0 0;
+    color: #b3b3b3;
+    font-size: 12px;
+}
+.form .message a {
+    color: #ff4d4d;
+    text-decoration: none;
+}
+.form .message.success {
+    color: #28a745;
+}
+.form .message.error {
+    color: #dc3545;
+}
